@@ -153,6 +153,6 @@ body {
 @media only screen and (max-width: 600px) {
   .blog-preview-card {
     max-width: 70vw;
-    max-height: 522px;
+    max-height: 600px;
   }
 }

@@ -105,7 +105,7 @@ body {
   margin-top: 0px;
 
   margin-right: 24px;
-  height: 60px;
+  min-height: 60px;
 }
 
 .title:hover {
@@ -119,7 +119,7 @@ body {
   margin-top: 12px;
   color: gray;
 
-  height: 60px;
+  min-height: 60px;
 }
 
 .author-container {
@@ -152,7 +152,14 @@ body {
 /* Small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .blog-preview-card {
-    max-width: 70vw;
-    max-height: 900px;
+    max-width: 75vw;
+    /*max-height: 900px;*/
+  }
+
+  .figtree-medium {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: medium;
   }
 }

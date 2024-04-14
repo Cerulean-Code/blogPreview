@@ -1,16 +1,16 @@
 @font-face {
   font-family: figreeExtraBold;
-  src: url(src/assets/fonts/Figtree-ExtraBold.ttf);
+  src: url(/fonts/Figtree-ExtraBold.ttf);
 }
 
 @font-face {
   font-family: figtreeSemiBold;
-  src: url(src/assets/fonts/Figtree-SemiBold.ttf);
+  src: url(/fonts/Figtree-SemiBold.ttf);
 }
 
 @font-face {
   font-family: figtreeMedium;
-  src: url(src/assets/fonts/Figree-Medium);
+  src: url(/fonts/Figree-Medium);
 }
 
 body {

@@ -162,4 +162,22 @@ body {
     font-weight: 300;
     font-style: medium;
   }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .synopsis {
+    margin-top: 1px;
+    font-size: small;
+  }
+
+  .article-image {
+    object-fit: cover;
+    height: fit-content;
+    width: fit-content;
+    width: 290px;
+    height: 195px;
+    border-radius: 8px;
+  }
 }

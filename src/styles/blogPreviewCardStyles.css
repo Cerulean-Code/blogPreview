@@ -1,0 +1,158 @@
+@font-face {
+  font-family: figreeExtraBold;
+  src: url(src/assets/fonts/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: figtreeSemiBold;
+  src: url(src/assets/fonts/Figtree-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: figtreeMedium;
+  src: url(src/assets/fonts/Figree-Medium);
+}
+
+body {
+  background-color: rgb(244, 208, 78);
+  margin-bottom: 24px;
+}
+
+.blog-preview-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.blog-preview-card {
+  background-color: white;
+  color: black;
+  border: solid black 1px;
+  border-radius: 5%;
+
+  max-width: 384px;
+  max-height: 522px;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  box-shadow: 8px 8px black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  margin-bottom: 4px;
+  max-width: 95%;
+  width: 95%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.article-image {
+  object-fit: cover;
+  height: fit-content;
+  width: fit-content;
+  max-width: 336px;
+  max-height: 201px;
+  border-radius: 8px;
+}
+
+.content {
+  width: 100%;
+  height: 260px;
+}
+
+.badge {
+  background-color: rgb(244, 208, 78);
+  max-width: fit-content;
+  margin-top: 2px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+  margin-left: 24px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.324);
+  border-radius: 3px;
+
+  font-family: "figreeExtraBold";
+  font-size: 12px;
+}
+
+.published {
+  font-family: "figtreeSemiBold";
+  font-size: 14px;
+  padding: 12px 12px 12px 0px;
+
+  margin-left: 24px;
+}
+
+.title {
+  font-family: "figreeExtraBold";
+  font-size: 24px;
+  margin-left: 24px;
+  margin-top: 0px;
+
+  margin-right: 24px;
+  height: 60px;
+}
+
+.title:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
+.synopsis {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 12px;
+  color: gray;
+
+  height: 60px;
+}
+
+.author-container {
+  margin-top: 24px;
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.author {
+  font-family: "figreeExtraBold";
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+.figtree-medium {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: medium;
+}
+
+/*Above 600px*/
+@media only screen and (min-width: 600px) {
+  .blog-preview-card {
+    min-width: 385px;
+  }
+}
+
+/* Small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {
+  .blog-preview-card {
+    max-width: 70vw;
+    max-height: 522px;
+  }
+}*/

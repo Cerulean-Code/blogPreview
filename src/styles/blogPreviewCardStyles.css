@@ -149,8 +149,8 @@ body {
   }
 }
 
-/* Small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Small devices (phones, 450px and down) */
+@media only screen and (max-width: 500px) {
   .blog-preview-card {
     max-width: 75vw;
     /*max-height: 900px;*/
@@ -179,5 +179,8 @@ body {
     width: 290px;
     height: 195px;
     border-radius: 8px;
+
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
